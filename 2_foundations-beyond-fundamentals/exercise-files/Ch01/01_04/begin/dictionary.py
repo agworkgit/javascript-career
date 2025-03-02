@@ -10,3 +10,5 @@ california_symbols = {
     'flower': 'California poppy',
     'fruit': 'Avocado',
 }
+
+print(california_symbols['flower']) # prints 'California poppy'

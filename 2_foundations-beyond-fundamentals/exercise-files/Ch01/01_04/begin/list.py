@@ -10,3 +10,7 @@ cities = [
     'Mumbai', 
     'Buenos Aires',
 ]
+
+# list indexing starts at 0 for item 1, 1 for item 2, ..., so on
+
+print(cities[1]) # 'Dakar'
