@@ -1,6 +1,4 @@
-def say_hello():
-    print("Hello, friends!")
+def say_hello(): # declaring a function
+    print('Hello from Py function!')
 
-say_hello()
-say_hello()
-say_hello()
+say_hello() # calling the function
