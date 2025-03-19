@@ -2,7 +2,7 @@
 
 Additional to revising this course, go and learn more about JSX and React become a well rounded JS developer.
 
-Scrimba course progress 60%
+Scrimba course progress 70%
 Left to do:
 
 -   Essential JavaScript concepts
