@@ -13,8 +13,23 @@ const data = [
 */
 
 function restructureArray(data) {
+  const dataMap = {};
+
   // Create and array to hold the root elements
   const root = [];
 
+  data.forEach((item) => {
+    dataMap[item.id] = {
+      ...item,
+      children: [],
+    };
+  });
 
+  return root;
 }
+
+const result = restructureArray(data);
+
+// Output the result array as a tree
+
+console.log(JSON.stringify(result, null, 2));
